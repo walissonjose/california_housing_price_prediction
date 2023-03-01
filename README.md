@@ -35,8 +35,7 @@ Licença
 Este repositório está licenciado sob a licença MIT.
 
 # Construção da rede
-# mlp = MLPRegressor(hidden_layer_sizes=(3, ), activation='tanh', solver='adam',
-#                  max_iter=5000, tol=0.000001)
+# mlp = MLPRegressor(hidden_layer_sizes=(3, ), activation='tanh', solver='adam', max_iter=5000, tol=0.000001)
 Este trecho de código é responsável por construir a rede neural artificial (RNA) que será utilizada para realizar a regressão dos dados. Abaixo segue a explicação de cada termo:
 
 MLPRegressor: classe utilizada para construir um modelo de regressão utilizando uma RNA do tipo Perceptron de Múltiplas Camadas (Multi-Layer Perceptron, MLP).
