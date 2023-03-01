@@ -37,8 +37,8 @@ y_test = scalerOutput.transform(y_test)
 print(f"X_train: {X_train.shape}, y_train: {y_train.shape}, X_test: {X_test.shape}, y_test: {y_test.shape}")
 
 # Construção da rede
-mlp = MLPRegressor(hidden_layer_sizes=(3, ), activation='tanh', solver='adam',
-                   max_iter=5000, tol=0.000001)
+mlp = MLPRegressor(hidden_layer_sizes=(9, 8), activation='tanh', solver='adam',
+                   max_iter=100000, tol=0.000001)
 
 # Treinamento da rede
 mlp.fit(X_train, y_train.ravel())
